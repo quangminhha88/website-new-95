@@ -1,0 +1,15 @@
+# SaaS Excellence Hub — robots.txt
+# https://saas-excellence.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /go/
+Disallow: /monitoring-test
+Disallow: /*?*
+
+# Affiliate redirect routes — do not waste crawl budget
+Disallow: /go/
+
+# Sitemap
+Sitemap: https://saas-excellence.com/sitemap.xml
