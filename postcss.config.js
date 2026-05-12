@@ -1,3 +1,3 @@
-// Tailwind v4 with Vite uses @tailwindcss/vite plugin directly.
-// PostCSS config is not needed and should not load @tailwindcss/postcss here.
+// Tailwind v4 with Vite uses @tailwindcss/vite plugin (in vite.config.ts).
+// PostCSS config is not needed - export empty to avoid conflicts.
 export default {};
